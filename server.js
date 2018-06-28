@@ -7,7 +7,7 @@ var apiController = require('./controllers/apiController')
 
 // Here we will set up the port, configure mongoose, configure our middleware
 var PORT = process.env.PORT || 3000;
-mongoose.Promise = bluebird;
+mongoose.Promise = mongoose;
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
