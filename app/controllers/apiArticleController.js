@@ -24,7 +24,6 @@ module.exports = {
         const savedArticle 	= {};
         savedArticle.title 	= req.body.article.headline.main;
         savedArticle.url	= req.body.article.web_url;
-        // savedArticle.date	= req.body.article.pub_date;
         savedArticle.date = Date.now();
         Article.create(savedArticle).then(function(doc) {
             res.json(doc);
