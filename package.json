@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jenn2318/NYT-React-Search-/issues"
   },
-  "homepage": "https://github.com/jenn2318/NYT-React-Search-#readme"
+  "homepage": "https://github.com/jenn2318/NYT-React-Search-#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  }
 }
