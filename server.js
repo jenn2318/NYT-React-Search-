@@ -3,7 +3,7 @@ var express = require("express");
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
 var routes = require("./routes/routes");
-var apiController = require('./controllers/apiController')
+var apiController = require('./controllers/apiArticleController')
 
 // Here we will set up the port, configure mongoose, configure our middleware
 var PORT = process.env.PORT || 3000;
